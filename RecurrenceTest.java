@@ -35,7 +35,7 @@ public class RecurrenceTest {
 					if(f.getName().endsWith(".java")) {
 						System.out.println(f.getName());
 					}
-				}else if(file.isDirectory()) {
+				}else if(f.isDirectory()) {
 					method2(f);
 				}
 			}
